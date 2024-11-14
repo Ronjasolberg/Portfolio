@@ -3,6 +3,7 @@ body {
 }
 
 ul {
+  font-family: Tahoma, Verdana, sans-serif;
   color: #4d3a33;
   display: flex;
   justify-content: end;
@@ -18,23 +19,29 @@ ul {
 
 /* class-name Selector */
 .listItem {
-  
+  color: #4d3a33;
+  font-size: larger;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1 {
+  font-family: Tahoma, Verdana, sans-serif;
   color: #1d1613;
   text-align: center;
 }
 
 h2 {
+  font-family: Tahoma, Verdana, sans-serif;
   color: #1d1613;
 }
 
 h3 {
+  font-family: Tahoma, Verdana, sans-serif;
   color: #1d1613;
 }
 
 p {
+  font-family: Tahoma, Verdana, sans-serif;
   color: #1d1613;
   width: 60ch;
 }
@@ -93,5 +100,7 @@ p {
 }
 
 .text-and-image p {
+  color:#1d1613;
+  margin-left: auto;
   margin: 0; /* Fjern standard margin fra paragrafen for å unngå mellomrom */
 }
