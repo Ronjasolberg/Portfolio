@@ -1,0 +1,21 @@
+body {
+  background-color: #f8af94;
+}
+
+ul {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* id-name Selector */
+#home {
+}
+
+/* class-name Selector */
+.listItem {
+  
+}
