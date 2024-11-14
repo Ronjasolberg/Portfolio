@@ -3,6 +3,7 @@ body {
 }
 
 ul {
+  color: #4d3a33;
   display: flex;
   justify-content: end;
   gap: 20px;
@@ -18,6 +19,32 @@ ul {
 /* class-name Selector */
 .listItem {
   
+}
+
+h1 {
+  color: #1d1613;
+  text-align: center;
+}
+
+h2 {
+  color: #1d1613;
+}
+
+h3 {
+  color: #1d1613;
+}
+
+p {
+  color: #1d1613;
+  width: 60ch;
+}
+
+/* Bilder som står alene, ikke i seksjoner */
+.one-image {
+  width: 300px;      /* Sett bredde til 300px */
+  height: auto;      /* Behold forholdet mellom bredde og høyde */
+  border: 5px solid #c3765b;
+  border-radius: 10px;
 }
 
 .image-container {
@@ -50,4 +77,21 @@ ul {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+}
+
+.text-and-image {
+  background-color: #c3765b;
+  display: flex;              /* Bruk Flexbox for å ordne elementene horisontalt */
+  align-items:center;        /* Juster elementene vertikalt (her: sentrert) */
+  justify-content:center; /* Juster elementene horisontalt (her: venstrejustert) */
+}
+
+.text-and-image img {
+  width: 400px; /* Sett ønsket bredde på bildet */
+  height: auto; /* Behold bildeforholdet */
+  margin-left: 25px; /* Valgfritt, legger til mellomrom mellom bilde og tekst */
+}
+
+.text-and-image p {
+  margin: 0; /* Fjern standard margin fra paragrafen for å unngå mellomrom */
 }
