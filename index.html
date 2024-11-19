@@ -3,35 +3,40 @@
   <head>
     <title>Home</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/styles.css" />
     <script type="module" src="js/script.js"></script>
   </head>
   <body>
+    <nav>
+      <ul>
+      <li id="Home" class="listItem"><a href="index.html">HJEM </a></li>
+      <li id="About" class="listItem"><a href="html/om.html"> OM MEG</a></li>
+      <li id="Projects" class="listItem"><a href="html/prosjekter.html">PROSJEKTER</a></li>
+      <ul>
+    </nav>
     <header>
-      <nav>
-        <ul>
-        <li id="Home" class="listItem"><a href="index.html">HJEM </a></li>
-        <li id="About" class="listItem"><a href="html/om.html"> OM MEG</a></li>
-        <li id="Projects" class="listItem"><a href="html/prosjekter.html">PROSJEKTER</a></li>
-        <ul>
-      </nav>
+      <div class="header">
+        <h1>Ronja Solberg</h1>
+      </div>
     </header>
     <main>
-      <h1>Velkommen til min portfolio</h1>
-      <section class="text-and-image">
-        <p>Her kommer jeg til å laste opp alle prosjekter som jeg gjennomfører på kodekurs på Kodeloftet. Kurset går over 12 uker og tar for seg grunnleggende undervisning i HTML, CSS og Javascript.<p>
-        <img src="img/home_coding.jpg" class="one-image">
-        </section>
-      <section>
-        <h2>Hva jeg lærer på kodekurset</h2>
-        <ul class="text-and-image">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-        </ul>
-      </section>
-      <a href="html/prosjekter.html" target="_blank"> Se mine prosjekter </a>
+      <div class="row">
+        <div class="side">
+          <h2>Min portfolio</h2>
+          <p>Her kommer jeg til å laste opp alle prosjekter som jeg gjennomfører på kodekurs på Kodeloftet. Kurset går over 12 uker og tar for seg grunnleggende undervisning i HTML, CSS og Javascript.<p></p>
+          <img src="img/home_coding.jpg" style="height: 200px;">
+        </div>
+        <div class="main">
+          <h2>Hva jeg lærer på kodekurset</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+          </ul>
+          <a href="html/prosjekter.html" target="_blank"> Se mine prosjekter </a>
+        </div>
+      </div>
       <section>
         <h2>Læringsressurser</h2>
         <ul class="text-and-image">
@@ -41,6 +46,7 @@
         </ul>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+    </footer>
   </body>
 </html>
