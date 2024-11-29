@@ -157,3 +157,7 @@ p {
   margin-left: auto;
   margin: 0; /* Fjern standard margin fra paragrafen for å unngå mellomrom */
 }
+
+#kodebilde {
+  max-height: 200px;
+}
